@@ -1,0 +1,79 @@
+footer {
+  background: rgba(255, 255, 255, 0.04);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 0 24px 0;
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  nav{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    color: var(--foundation--white-dark);
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: var(--foundation--orange-normal);
+    }
+  }
+  .social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 51px;
+    a {
+      border-radius: 100%;
+      background-color: rgba(255, 255, 255, 0.04);
+      border: 0.7px solid var(--foundation--white-darker);
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .mail{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+  }
+  .copy{
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid var(--foundation--white-dark-active);
+    p{
+        margin-top: 16px;
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: justify;
+color: var(--foundation--white-dark-active);
+    }
+}
+}
